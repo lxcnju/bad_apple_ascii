@@ -33,8 +33,8 @@ Transfer the video of bad apple to a series of ascii-images.
     然后，利用skimage包逐个帧提取gif里面的图像，将之转换为字符画字符串，写入到html文件里面，在html目录下，然后就会生成以视频名为文件名的html文件，然后用浏览器打开即可。推荐使用chrome或edge浏览器，观看时如果效果不佳（字符太大，边缘不平滑），可以用'ctrl'+'-'缩小屏幕。
   
 ## 实例
-  * [Bad Apple](https://www.bilibili.com/video/av706?from=search&seid=17055209907023401309)
-   本项目采用了一个比较简单的Bad Apple的视频，在Python3环境下，运行python bad_apple_ascii.py即可得到html/bad.html文件，然后用浏览器打开即可。如果需要尝试其余的视频，可以在video目录下放入需要处理的视频，然后修改bad_apple_ascii.py里面的视频路径配置，以及修改image2txt函数里面的相关代码（可以加入直方图均衡化、边缘增强等步骤），然后运行bad_apple_ascii.py即可。
-   ![Bad Apple 字符画视频](https://github.com/lxcnju/bad_apple_ascii/bad_apple.gif)
+  * [Bad Apple](https://www.bilibili.com/video/av706?from=search&seid=17055209907023401309) <br>
+   本项目采用了一个比较简单的Bad Apple的视频，在Python3环境下，运行python bad_apple_ascii.py即可得到html/bad.html文件，然后用浏览器打开即可。如果需要尝试其余的视频，可以在video目录下放入需要处理的视频，然后修改bad_apple_ascii.py里面的视频路径配置，以及修改image2txt函数里面的相关代码（可以加入直方图均衡化、边缘增强等步骤），然后运行bad_apple_ascii.py即可。<br>
+   ![Bad Apple 字符画视频](https://github.com/lxcnju/bad_apple_ascii/blob/master/bad_apple.gif)
   
  
